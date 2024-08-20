@@ -4,17 +4,14 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+// import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import {ImPaintFormat} from "react-icons/im"
 import {
-  AiFillStar,
+  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -38,7 +35,6 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -82,27 +78,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/other"
-                onClick={() => updateExpanded(false)}
-              >
-              <ImPaintFormat style={{ marginBottom: "2px" }} /> Misc
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://www.educative.io/profile/view/6734745937641472"
+                href="https://medium.com/@arishirfan98"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -112,12 +88,11 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/saleha-muzammil/portfolio"
+                onClick={()=> window.open('/AarishIrfan-SQA.pdf' , '__blank')}
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+               Resume
               </Button>
             </Nav.Item>
           </Nav>
@@ -127,4 +102,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBar;

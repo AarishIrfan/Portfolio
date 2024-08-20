@@ -17,13 +17,13 @@ function About() {
             <Aboutcard />
         </Row>
         <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-          Professional <strong className="teal">Skillset </strong>
+          Technical <strong className="teal">Skills </strong>
         </h2>
 
         <Techstack />
 
         <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-          <strong className="teal">Softwares</strong> I use
+          <strong className="teal">Tools</strong> I use
         </h2>
         <Toolstack />
 

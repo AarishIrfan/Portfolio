@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiOutlineTwitter} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub} from "react-icons/ai";
+import { FaLinkedinIn , FaMedium  } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -10,16 +10,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed by Saleha Muzammil Rashid</h3>
+          <h3>Built by Aarish Irfan</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/saleha-muzammil"
+                href="https://github.com/AarishIrfan"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -29,17 +29,17 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/MuzammilSaleha"
+                href="https://medium.com/@arishirfan98"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <FaMedium   />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/salehamuzammil/"
+                href="https://www.linkedin.com/in/aarishirfan/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

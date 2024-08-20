@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { Col } from "react-bootstrap";
 import me from "../../Assets/me.png";
 import Type from "./Type";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub} from "react-icons/ai";
+import { FaLinkedinIn , FaMedium  } from "react-icons/fa";
 import { RxOpenInNewWindow } from "react-icons/rx"; // Import the arrow icon from react-icons
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
             <Col md={12} className="home-header">
               <div className="content-container">
                 <h1 className="heading">
-                 Hi, I'm <strong className="main-name">Saleha Muzammil</strong>.
+                 Hi, I'm <strong className="main-name">Aarish Irfan</strong>.
                 </h1>
                 <div className="type-container">
                   <Type />
@@ -24,17 +24,19 @@ function Home() {
                   <br/>
                 </div>
                 <div className="paragraph-container">
+                  
                   <p>
-                    A self-driven and determined individual with a passion for <span className="teal">Applied Machine Learning</span>.
-                    <br /> Committed to working on solving real-life challenges through ML to make the world a better place.
+                    A self-driven and determined individual with a passion for <span className="teal">Software Testing</span>.
+                    <br /> Committed to enhancing product quality and user experience through QA processes.
                   </p>
                 </div>
+          
               <Col md={12}>
                 <div>
                   <ul className="home-about-social-links">
                     <li className="social-icons">
                       <a
-                        href="https://github.com/saleha-muzammil"
+                        href="https://github.com/AarishIrfan"
                         target="_blank"
                         rel="noreferrer"
                         className="icon-colour  home-social-icons"
@@ -44,17 +46,17 @@ function Home() {
                     </li>
                     <li className="social-icons">
                       <a
-                        href="https://twitter.com/MuzammilSaleha"
+                        href="https://medium.com/@arishirfan98"
                         target="_blank"
                         rel="noreferrer"
                         className="icon-colour  home-social-icons"
                       >
-                        <AiOutlineTwitter />
+                        <FaMedium  />
                       </a>
                     </li>
                     <li className="social-icons">
                       <a
-                        href="https://www.linkedin.com/in/salehamuzammil/"
+                        href="https://www.linkedin.com/in/aarishirfan/"
                         rel="noreferrer"
                         target="_blank"
                         className="icon-colour  home-social-icons"
