@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Personal Portfolio Website 
 
 
@@ -20,6 +20,3 @@ This README file describes the personal portfolio website. The website is built 
 Feel free to fork this repository and customize the website to create your own personal portfolio. If you find any bugs or have suggestions for improvements, please create a pull request or raise an issue.
 
 
-=======
-# Portfolio
->>>>>>> 45a26c6e3f644f5696605f02a3df7ca8c73196af
