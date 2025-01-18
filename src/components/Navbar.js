@@ -76,7 +76,20 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
+           <Nav.Link
+           as={Link}
+           to="/Resources"
+           onClick={() => updateExpanded(false)}
+             >
+           <AiOutlineFundProjectionScreen
+           style={{ marginBottom: "2px" }}
+              />{" "}
+                Resources
+              </Nav.Link>
+              </Nav.Item> */}
+
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://medium.com/@arishirfan98"
                 target="_blank"
@@ -84,7 +97,7 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
